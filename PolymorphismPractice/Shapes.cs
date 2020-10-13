@@ -1,4 +1,5 @@
-﻿using System;
+﻿// This is a example of Dynamic Polymorphism, which uses method overriding.
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,21 +7,23 @@ namespace PolymorphismPractice
 {
     public class Shapes
     {
+        // Area method is overriden in other class since it is virtual
         public virtual double Area()
         {
             return 0;
         }
     }
 
-    public class Circle : Shapes
+    public class Circle : Shapes 
     {
         public double Radius { get; set; }
         public Circle()
         {
             Radius = 5;
         }
-        public override double Area()
-        {
+        
+        public override double Area() 
+        { 
             return 3.14 * Radius * Radius;
         }
     }
