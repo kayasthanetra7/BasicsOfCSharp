@@ -24,7 +24,7 @@ namespace PolymorphismPractice
         
         public override double Area() 
         { 
-            return 3.14 * Radius * Radius;
+            return Math.PI * Math.Pow(Radius, 2);
         }
     }
 
@@ -37,7 +37,7 @@ namespace PolymorphismPractice
         }
         public override double Area()
         {
-            return Side * Side;
+            return Math.Pow(Side,2);
         }
     }
 
