@@ -59,13 +59,13 @@ namespace Arrays
                 // display the message to catch if it is a symbol
                 catch
                 {
-                    Console.WriteLine("Oops this is not a number, pls try again");
+                    Console.WriteLine("Oops this is not a number, Pls try again");
                 }
 
                 // if the number entered is out of the allowed range for Flavors
                 if (Choice < 1 || Choice > Flavor.Length)
                 {
-                    Console.WriteLine("Choice does not exist, \n Pls try again");
+                    Console.WriteLine("Choice does not exist, Pls try again");
                 }
             }
             while (Choice < 1 || Choice > Flavor.Length);
@@ -93,12 +93,12 @@ namespace Arrays
                 // display the message to catch if it is a symbol
                 catch
                 {
-                    Console.WriteLine("Oops this is not a number, pls try again");
+                    Console.WriteLine("Oops this is not a number, Pls try again");
                 }
                 // if the number entered is out of the allowed range for container
                 if (Choice < 1 || Choice > Container.Length)
                 {
-                    Console.WriteLine("Choice does not exist, \n Pls try again");
+                    Console.WriteLine("Choice does not exist, Pls try again");
                 }
             }
             while (Choice < 1 || Choice > Container.Length);
@@ -126,12 +126,12 @@ namespace Arrays
                 // display the message to catch if it is a symbol
                 catch (FormatException)
                 {
-                    Console.WriteLine("Oops this is not a number, pls try again");
+                    Console.WriteLine("Oops this is not a number, Pls try again");
                 }
                 // if the number entered is out of the allowed range for Toppings
                 if (Choice < 1 || Choice > Toppings.Length)
                 {
-                    Console.WriteLine("Choice does not exist, \n Pls try again");
+                    Console.WriteLine("Choice does not exist, Pls try again");
                 }
 
             }
