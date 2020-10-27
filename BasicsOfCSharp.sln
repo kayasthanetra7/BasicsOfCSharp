@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary_Examples", "Dictionary_Examples\Dictionary_Examples.csproj", "{8643E9BA-203C-4901-AFC0-06D85F40C482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_Examples", "Stack_Examples\Stack_Examples.csproj", "{FA4A1BF9-6F3E-4793-AC5E-144AE599C25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_Examples", "Stack_Examples\Stack_Examples.csproj", "{FA4A1BF9-6F3E-4793-AC5E-144AE599C25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue_Examples", "Queue_Examples\Queue_Examples.csproj", "{5DD2CC2E-E322-4F58-8E37-C3E6F1855405}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FA4A1BF9-6F3E-4793-AC5E-144AE599C25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA4A1BF9-6F3E-4793-AC5E-144AE599C25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4A1BF9-6F3E-4793-AC5E-144AE599C25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD2CC2E-E322-4F58-8E37-C3E6F1855405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD2CC2E-E322-4F58-8E37-C3E6F1855405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD2CC2E-E322-4F58-8E37-C3E6F1855405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD2CC2E-E322-4F58-8E37-C3E6F1855405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
