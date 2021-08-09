@@ -1,2 +1,7 @@
 # BasicsOfCSharp
-This is a repository which has all basic concepts of C# programming
+This repository has some basic concepts of C# programming that includes examples of:
+- Arrays
+- Dictionary
+- Polymorphism
+- Queue
+- Stack
